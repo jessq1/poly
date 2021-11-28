@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./types/environment.d.ts", "./node_modules/@types"],
     "target": "es5",
     "lib": [
       "dom",
@@ -27,5 +28,5 @@
     "middleware",
     "models",
     "routes"
-  ]
+, "src/config/FrontEndConfig.ts"  ]
 }
