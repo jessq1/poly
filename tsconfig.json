@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "typeRoots": ["./types/environment.d.ts", "./node_modules/@types"],
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -22,11 +22,13 @@
     "jsx": "react-jsx"
   },
   "include": [
+    "server.ts",
     "src",
     "config",
     "controllers",
     "middleware",
     "models",
-    "routes"
-, "src/config/FrontEndConfig.ts"  ]
+    "routes", 
+    "types",
+  ]
 }

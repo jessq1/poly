@@ -4,10 +4,10 @@ declare global {
       interface ProcessEnv {
         PORT: string;
         DATABASE_URL: string;
+        SECRET: string;
         FACEBOOK_CALLBACK: string;
         FACEBOOK_APP_ID: string;
         FACEBOOK_APP_SECRET: string;
-        
       }
     }
   }
