@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["0-server/types/environment.d.ts", "./node_modules/@types"],
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "server.ts",
+    "src",
+    "config",
+    "0-server/controllers",
+    "0-server/middleware",
+    "0-server/models",
+    "0-server/routes", 
+    "0-server/types", 
+    "0-server/config",
+  ]
+}
